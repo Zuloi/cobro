@@ -1,0 +1,91 @@
+
+#titel{
+background-image: url(https://bskies.io/wp-content/uploads/layerslider/Homeslider/Bannerbild-11.jpg);
+width: calc(100% - 4%);
+float:left;
+height: calc(7% - 2%);
+padding: 2% 2%;
+font-size: 40px;
+font-weight: bold;
+color: White;
+position: absolute;
+top: 0px;
+
+}
+
+
+
+
+body{
+  margin: 0;
+  margin-top: 10%;
+  background-image: url(http://static.zoonar.de/img/www_repository4/8a/fc/f6/10_07a345a7d302063eb87ea5a38b124d67.jpg);
+  padding-bottom: 2%;
+
+}
+
+footer{
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:40px;
+    width:100%;
+    background-image: url(https://bskies.io/wp-content/uploads/layerslider/Homeslider/Bannerbild-11.jpg);
+    text-align: center;
+    font-size: 15px;
+    color: White;
+    }
+
+footer a{
+  color: white;
+}
+
+
+.wrapper{
+
+    width: 80%;
+    margin: 2em auto 0;
+}
+
+
+
+
+textarea {
+margin-bottom: 20px;
+
+}
+
+
+
+
+h1{
+color: White;
+}
+
+#Blogs{
+  width: calc (80% - 10%);
+  border: solid;
+  color: white;
+  padding: 0 5% 5% 5%;
+  margin: 53px 90px 90px 230px;
+  word-wrap: break-word;
+}
+
+
+
+.Blog {
+  font-size: 16px !important;
+  width: 50%;
+  position: relative;
+  background-image: url(https://bskies.io/wp-content/uploads/layerslider/Homeslider/Bannerbild-11.jpg);
+  text-align: center;
+  padding: 1em 2em; /* Adjust to suit */
+  margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+  border-radius: 25px;
+}
+
+img{
+  width: 90%;
+  max-height: 400px;
+  max-width: 800px;
+}
