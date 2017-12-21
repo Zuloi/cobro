@@ -1,23 +1,23 @@
 
 #titel{
 background-image: url(https://bskies.io/wp-content/uploads/layerslider/Homeslider/Bannerbild-11.jpg);
-width: calc(100% - 4%);
+width: calc(100% - 80px);
 float:left;
 height: calc(7% - 2%);
-padding: 2% 2%;
+padding: 40px 40px;
 font-size: 40px;
 font-weight: bold;
 color: White;
 position: absolute;
 top: 0px;
-
+left: 0px;
 }
 
 
 
 
 body{
-  margin: 0;
+
   margin-top: 10%;
   background-image: url(http://static.zoonar.de/img/www_repository4/8a/fc/f6/10_07a345a7d302063eb87ea5a38b124d67.jpg);
   padding-bottom: 2%;
@@ -41,19 +41,10 @@ footer a{
 }
 
 
-.wrapper{
-
-    width: 80%;
-    margin: 2em auto 0;
-}
 
 
 
 
-textarea {
-margin-bottom: 20px;
-
-}
 
 
 
@@ -62,14 +53,7 @@ h1{
 color: White;
 }
 
-#Blogs{
-  width: calc (80% - 10%);
-  border: solid;
-  color: white;
-  padding: 0 5% 5% 5%;
-  margin: 53px 90px 90px 230px;
-  word-wrap: break-word;
-}
+
 
 
 
@@ -85,7 +69,6 @@ color: White;
 }
 
 img{
-  width: 90%;
-  max-height: 400px;
-  max-width: 800px;
+margin-left: 10%;
+width: 80%;
 }
