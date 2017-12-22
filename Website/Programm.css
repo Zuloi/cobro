@@ -1,8 +1,7 @@
 
 #titel{
-background-image: url(https://bskies.io/wp-content/uploads/layerslider/Homeslider/Bannerbild-11.jpg);
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqY5hD2trtoO1xYRdBnCCyrhBsXCQVB4yqhqcDoy4g0hrzLYo1hg);
 width: calc(100% - 80px);
-float:left;
 height: calc(7% - 2%);
 padding: 40px 40px;
 font-size: 40px;
@@ -11,16 +10,18 @@ color: White;
 position: absolute;
 top: 0px;
 left: 0px;
+text-align: center;
 }
+
 
 
 
 
 body{
   margin-top: 150px;
-  background-image: url(http://static.zoonar.de/img/www_repository4/8a/fc/f6/10_07a345a7d302063eb87ea5a38b124d67.jpg);
+  background-image: url(https://visionwall.com.au/wp-content/uploads/2015/08/pe-04-04-8.jpg);
   padding-bottom: 2%;
-
+  /*background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyio8r6NbfOUPkpL1DPelV9fJMHuw3RbY1__iMUwXilvZFOoNwaA);*/
 }
 
 footer{
@@ -29,7 +30,7 @@ footer{
     bottom:0px;
     height:40px;
     width:100%;
-    background-image: url(https://bskies.io/wp-content/uploads/layerslider/Homeslider/Bannerbild-11.jpg);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqY5hD2trtoO1xYRdBnCCyrhBsXCQVB4yqhqcDoy4g0hrzLYo1hg);
     text-align: center;
     font-size: 15px;
     color: White;
@@ -60,7 +61,7 @@ color: White;
   font-size: 16px !important;
   width: 50%;
   position: relative;
-  background-image: url(https://bskies.io/wp-content/uploads/layerslider/Homeslider/Bannerbild-11.jpg);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqY5hD2trtoO1xYRdBnCCyrhBsXCQVB4yqhqcDoy4g0hrzLYo1hg);
   text-align: center;
   padding: 1em 2em; /* Adjust to suit */
   margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
@@ -70,4 +71,50 @@ color: White;
 img{
 margin-left: 10%;
 width: 80%;
+}
+
+.wrapper{
+
+    width: 80%;
+    margin: 2em auto 0;
+}
+
+.form-group{
+  color: white;
+  text-align: center;
+}
+
+#vorname,#nachname{
+margin-top: 10px;
+}
+
+#vorname{
+  margin-left: 30px;
+}
+
+#nachname{
+  margin-left: 19px;
+  margin-bottom: 20px;
+}
+
+.fehler{
+    background-color: #Fc798a;
+    color: red;
+    padding-top: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.versendet{
+    background-color: #66ffcc;
+    color: green;
+    padding-top: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: green;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
