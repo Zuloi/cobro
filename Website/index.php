@@ -28,7 +28,12 @@
 
 
 <h1 class="Blog"><strong class="ribbon-content">Programme</strong></h1>
-
+<div id= programme>
+<img src="../bilder/programm1.png">
+<img src="../bilder/programm2.png">
+<img src="../bilder/programm5.png">
+<img src="../bilder/programm6.png">
+</div>
 </body>
 <footer>
     <div><p><a href="http://localhost/cobro/Website/">Go to top</a></p></div>
